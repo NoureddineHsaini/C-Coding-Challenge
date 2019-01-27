@@ -1,21 +1,21 @@
-# C++ Coding Challenge
+/**
+* @file < README.md >
+* @author < Noureddine HSAINI>
+* @date 27/01/2019
 
-## Requirements
-Create a C++ program that can parse and evaluate arithmetic expressions. For example, on input **3+(5+(4*3))-12**, the program should return **8**. The program should also detect an invalid input and report an appropriate error.
+* @Description: In this project I worked Create a C++ program that can parse and evaluate arithmetic expressions. For example, on input 3+(5+(4*3))-12, 
+                the program return 8. This program can also detect an invalid input and report an appropriate error. For example, on input 3/0  the program 
+			    return error "devide by 0". 
+				- The project consists of three files : - main.cpp         : the main program.
+				                                        - My_Functions.cpp : in this file I implemented all the project functions.
+														- My_Functions.h   : in this file I declared all the project functions  prototype.
+														
+                - These are the functions I programmed:
 
-**Supported Symbols**
-- Positive and negative numbers.
-- +, -, *, / and parentheses.
-
-How we review
-----------------
-
-Your code will be reviewed by at least two of our engineers. We do take into consideration your experience level.
-
-**We value quality over feature-completeness**. It is fine to skip certain features aside provided you mention them out in your project's README. 
-
-The aspects of your code we will review include:
-
-* **Code quality**: is the code simple, easy to understand, and maintainable?  Are there any code smells or other red flags? Is the coding style consistent with the language's guidelines? Is it consistent throughout the codebase?
-* **Version Control**: are you commiting early and often ? how good are your git commit messages ? 
-* **Correctness**: does the application do what was asked? If there is anything missing, does the README explain why it is missing? 
+                                                      - main()      : The main entry point for your program
+                                                      - get_token() : the role of this function is to check the type of symbol
+                                                      - expr(bool)  : the role of this function is to calculate add and subtract
+                                                      - prim(bool)  : the role of this function is to calculate unary minus and Pi 
+                                                      - term(bool)  : the role of this function is to calculate  multiply and divide
+                                                      - error(const string& ) : the role of this function is to manage the number and type of errors
+ **/
